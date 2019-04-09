@@ -2,11 +2,11 @@
 /* Aiden Talavera, March 26th, 2019*/
 
 body {
-	font-family: Times New Roman, Arial, Helvetica, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	line-height: 1.5em;
 	color: #FFFFFF;
-	background-color: #7F7F7F;
+	background-color: #333333;
 	padding: 0 40px;
 }
 
@@ -99,3 +99,68 @@ iframe {
 	margin: 8px;
 }
 
+/* DIV STYLES FOR PAGE LAYOUT */
+
+#container {
+  width: 900px;
+  margin: 0 auto;
+  padding: 40px;
+  padding-right: 100px;
+  /* border: 1px solid #000; */
+  background-color: #7F7F7F;
+  overflow: hidden;
+}
+
+#header{
+  width: 100%;
+  background-color: #7F7F7F;
+  padding: 0;
+  border-bottom: solid #345F99 1px;
+}
+
+#content{
+  width: 600px;
+  background-color: #7F7F7F;
+  padding: 0px;
+  margin-top: 5px;
+  float: left;
+}
+
+#sidebar{
+  width: 150px;
+  background-color: #D3D3D3;
+  padding: 10px;	
+  float: left;
+  margin-left: 30px;
+  margin-top: 80px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+#sidebar h2 {
+  font-size: 1.1em;
+  margin: 0;
+  padding: 0;
+  color: #000;
+}
+
+#sidebar p {
+  font-size: .7em;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0;
+  color: #000;
+}
+
+#footer{
+  width: 100%;
+  background-color: #7F7F7F;
+  padding: 0;
+  border-top: solid #345F99 1px;
+  clear: both;
+}
+
+#footer p {
+  font-size: 1em;
+  margin: 0 0px;
+}
